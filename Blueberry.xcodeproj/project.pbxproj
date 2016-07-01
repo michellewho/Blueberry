@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3225DE801D26CFB4006B3571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225DE7F1D26CFB4006B3571 /* AppDelegate.swift */; };
-		3225DE821D26CFB4006B3571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225DE811D26CFB4006B3571 /* ViewController.swift */; };
 		3225DE851D26CFB4006B3571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3225DE831D26CFB4006B3571 /* Main.storyboard */; };
-		3225DE871D26CFB4006B3571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3225DE861D26CFB4006B3571 /* Assets.xcassets */; };
 		3225DE8A1D26CFB4006B3571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3225DE881D26CFB4006B3571 /* LaunchScreen.storyboard */; };
+		322824021D26EF4100BE310B /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322824011D26EF4100BE310B /* TimelineViewController.swift */; };
+		322824041D26EF5900BE310B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322824031D26EF5900BE310B /* ProfileViewController.swift */; };
+		322824061D26EF6C00BE310B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322824051D26EF6C00BE310B /* PhotoViewController.swift */; };
+		3237B1AD1D26E3A500E67C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3237B1AC1D26E3A500E67C0A /* Assets.xcassets */; };
+		32A867E41D272F58006197CF /* PhotoTakingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A867E31D272F58006197CF /* PhotoTakingHelper.swift */; };
+		32CA58F11D26E08E000247AA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 32CA58F01D26E08E000247AA /* Podfile */; };
+		6FE489D3777273D3D7B2AB63 /* Pods_Blueberry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF222958CCE71794B0D622B /* Pods_Blueberry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3225DE7C1D26CFB4006B3571 /* Blueberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blueberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3225DE7F1D26CFB4006B3571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3225DE811D26CFB4006B3571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3225DE841D26CFB4006B3571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3225DE861D26CFB4006B3571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3225DE891D26CFB4006B3571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3225DE8B1D26CFB4006B3571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322824011D26EF4100BE310B /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		322824031D26EF5900BE310B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		322824051D26EF6C00BE310B /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		3237B1AC1D26E3A500E67C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		32A867E31D272F58006197CF /* PhotoTakingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTakingHelper.swift; sourceTree = "<group>"; };
+		32CA58F01D26E08E000247AA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		65B44609070B1CC7B93E7A9D /* Pods-Blueberry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blueberry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blueberry/Pods-Blueberry.release.xcconfig"; sourceTree = "<group>"; };
+		883D874DD0D9A63D7E64F374 /* Pods-Blueberry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blueberry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blueberry/Pods-Blueberry.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF222958CCE71794B0D622B /* Pods_Blueberry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blueberry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE489D3777273D3D7B2AB63 /* Pods_Blueberry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		213FFCF99112D5186B94FB6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				883D874DD0D9A63D7E64F374 /* Pods-Blueberry.debug.xcconfig */,
+				65B44609070B1CC7B93E7A9D /* Pods-Blueberry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3225DE731D26CFB4006B3571 = {
 			isa = PBXGroup;
 			children = (
+				32CA58F01D26E08E000247AA /* Podfile */,
+				322824001D26EEFB00BE310B /* ViewControllers */,
 				3225DE7E1D26CFB4006B3571 /* Blueberry */,
 				3225DE7D1D26CFB4006B3571 /* Products */,
+				213FFCF99112D5186B94FB6E /* Pods */,
+				3A719F83AC2D89FB84ED8FFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,41 @@
 		3225DE7E1D26CFB4006B3571 /* Blueberry */ = {
 			isa = PBXGroup;
 			children = (
+				32A867E01D272E26006197CF /* PhotoTaking */,
+				3237B1AC1D26E3A500E67C0A /* Assets.xcassets */,
 				3225DE7F1D26CFB4006B3571 /* AppDelegate.swift */,
-				3225DE811D26CFB4006B3571 /* ViewController.swift */,
 				3225DE831D26CFB4006B3571 /* Main.storyboard */,
-				3225DE861D26CFB4006B3571 /* Assets.xcassets */,
 				3225DE881D26CFB4006B3571 /* LaunchScreen.storyboard */,
 				3225DE8B1D26CFB4006B3571 /* Info.plist */,
 			);
 			path = Blueberry;
+			sourceTree = "<group>";
+		};
+		322824001D26EEFB00BE310B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				322824011D26EF4100BE310B /* TimelineViewController.swift */,
+				322824031D26EF5900BE310B /* ProfileViewController.swift */,
+				322824051D26EF6C00BE310B /* PhotoViewController.swift */,
+			);
+			name = ViewControllers;
+			path = Blueberry/ViewControllers;
+			sourceTree = "<group>";
+		};
+		32A867E01D272E26006197CF /* PhotoTaking */ = {
+			isa = PBXGroup;
+			children = (
+				32A867E31D272F58006197CF /* PhotoTakingHelper.swift */,
+			);
+			path = PhotoTaking;
+			sourceTree = "<group>";
+		};
+		3A719F83AC2D89FB84ED8FFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDF222958CCE71794B0D622B /* Pods_Blueberry.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3225DE8E1D26CFB4006B3571 /* Build configuration list for PBXNativeTarget "Blueberry" */;
 			buildPhases = (
+				1F94ED58DB86427E938789BD /* [CP] Check Pods Manifest.lock */,
 				3225DE781D26CFB4006B3571 /* Sources */,
 				3225DE791D26CFB4006B3571 /* Frameworks */,
 				3225DE7A1D26CFB4006B3571 /* Resources */,
+				7D02DE38775281A0F9812F59 /* [CP] Embed Pods Frameworks */,
+				FF5278CEA2A1133E82E294D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +152,7 @@
 				TargetAttributes = {
 					3225DE7B1D26CFB4006B3571 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KF24937E72;
 					};
 				};
 			};
@@ -123,20 +180,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				3225DE8A1D26CFB4006B3571 /* LaunchScreen.storyboard in Resources */,
-				3225DE871D26CFB4006B3571 /* Assets.xcassets in Resources */,
+				32CA58F11D26E08E000247AA /* Podfile in Resources */,
+				3237B1AD1D26E3A500E67C0A /* Assets.xcassets in Resources */,
 				3225DE851D26CFB4006B3571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F94ED58DB86427E938789BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D02DE38775281A0F9812F59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blueberry/Pods-Blueberry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5278CEA2A1133E82E294D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blueberry/Pods-Blueberry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3225DE781D26CFB4006B3571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3225DE821D26CFB4006B3571 /* ViewController.swift in Sources */,
+				322824041D26EF5900BE310B /* ProfileViewController.swift in Sources */,
+				32A867E41D272F58006197CF /* PhotoTakingHelper.swift in Sources */,
+				322824061D26EF6C00BE310B /* PhotoViewController.swift in Sources */,
 				3225DE801D26CFB4006B3571 /* AppDelegate.swift in Sources */,
+				322824021D26EF4100BE310B /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +358,33 @@
 		};
 		3225DE8F1D26CFB4006B3571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883D874DD0D9A63D7E64F374 /* Pods-Blueberry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Blueberry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appbuilder.Blueberry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		3225DE901D26CFB4006B3571 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B44609070B1CC7B93E7A9D /* Pods-Blueberry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Blueberry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appbuilder.Blueberry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +407,7 @@
 				3225DE901D26CFB4006B3571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

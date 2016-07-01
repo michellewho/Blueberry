@@ -1,25 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8nY-F6-F9R">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Photo View Controller-->
+        <scene sceneID="sGq-vT-GvG">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2CW-TG-sZJ" customClass="PhotoViewController" customModule="Blueberry" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="2P4-0q-6tu"/>
+                        <viewControllerLayoutGuide type="bottom" id="5th-jH-iai"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="EyB-xI-s6e">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="photo" id="1cV-Zd-fTq"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mOT-oC-WAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="171" y="837"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="Kpe-Sp-gP1">
+            <objects>
+                <viewController id="a3i-zV-FpN" customClass="ProfileViewController" customModule="Blueberry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c6F-Uj-E5L"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ZM-EW-yGf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tZC-uX-7fX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="profile" id="QhW-lE-Y7W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5aJ-bJ-jtb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171" y="1571"/>
+        </scene>
+        <!--Timeline View Controller-->
+        <scene sceneID="1dm-Jt-jzQ">
+            <objects>
+                <viewController id="juj-j4-dng" customClass="TimelineViewController" customModule="Blueberry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yRd-KL-TYu"/>
+                        <viewControllerLayoutGuide type="bottom" id="jv2-Z3-TXk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MOg-fo-e6I">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="house" id="uEw-hu-gH2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GjJ-uV-FCF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171" y="176"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="7Lb-Bd-naI">
+            <objects>
+                <tabBarController id="8nY-F6-F9R" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="oqh-on-7fF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="juj-j4-dng" kind="relationship" relationship="viewControllers" id="GLo-9H-OeS"/>
+                        <segue destination="2CW-TG-sZJ" kind="relationship" relationship="viewControllers" id="Oue-zK-uwH"/>
+                        <segue destination="a3i-zV-FpN" kind="relationship" relationship="viewControllers" id="Bne-oh-Z1d"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VVq-7V-0iE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-649" y="507"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="house" width="32" height="28"/>
+        <image name="photo" width="45" height="33"/>
+        <image name="profile" width="30" height="30"/>
+    </resources>
 </document>
